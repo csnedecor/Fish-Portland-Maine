@@ -1,0 +1,11 @@
+[17-Sep-2015 05:29:33 UTC] PHP Fatal error:  Call to undefined function post_password_required() in /home/fishport/public_html/wp-content/themes/fishme/comments.php on line 16
+[29-Feb-2016 17:36:35 America/New_York] PHP Fatal error:  Call to undefined function language_attributes() in /home/fishport/public_html/wp-content/themes/fishme/header.php on line 10
+[29-Feb-2016 17:36:35 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/fishport/public_html/wp-content/themes/fishme/functions.php on line 67
+[29-Feb-2016 17:36:35 America/New_York] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/fishport/public_html/wp-content/themes/fishme/footer.php on line 16
+[29-Feb-2016 17:36:37 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/fishport/public_html/wp-content/themes/fishme/archive.php on line 1
+[29-Feb-2016 17:36:37 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/fishport/public_html/wp-content/themes/fishme/404.php on line 1
+[29-Feb-2016 17:36:37 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/fishport/public_html/wp-content/themes/fishme/404.php on line 1
+[12-Mar-2016 17:19:33 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/fishport/public_html/wp-content/themes/fishme/functions.php on line 67
+[12-Mar-2016 17:19:33 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/fishport/public_html/wp-content/themes/fishme/404.php on line 1
+[12-Mar-2016 17:19:34 America/New_York] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/fishport/public_html/wp-content/themes/fishme/footer.php on line 16
+[16-Jun-2016 06:16:12 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/fishport/public_html/wp-content/themes/fishme/404.php on line 1
