@@ -36,7 +36,7 @@
 	    	<a id="logo" href="<?php echo home_url(); ?>"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/fish-portland-maine.gif" alt="Fish Portland Maine Saltwater Charter Fishing" /></a>
 	    	<span id="email">mike@fishportlandmaine.com</span>
 	        <span id="phone">(207) 619-1584</span>
-	        <div id="nav">
+<!-- 	        <div id="nav">
 	        	<a href="<?php echo home_url(); ?>">Home</a>
 	            <a href="<?php echo home_url(); ?>/about/">About</a>
 	            <a href="<?php echo home_url(); ?>/guide-service-pricing/">Pricing</a>
@@ -44,6 +44,12 @@
 	            <a href="<?php echo home_url(); ?>/fishing-photos/">Gallery</a>
 	            <a href="<?php echo home_url(); ?>/links/">Links</a>
 	            <a href="<?php echo home_url(); ?>/contact/" class="last">Contact</a>
-	        </div>
+	        </div> -->
+          <div id="nav">
+            <?php wp_nav_menu( array(
+              'theme_location' => 'primary'
+              )
+              );  ?>
+          </div><!-- /#nav -->
 	    </div>
 	<!-- END PAGE TOP --></div>

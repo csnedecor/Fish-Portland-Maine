@@ -50,8 +50,8 @@ and Blueprint http://www.blueprintcss.org/
 1.0 - Reset
 --------------------------------------------------------------*/
 
-	
-	
+
+
 @import url(http://fonts.googleapis.com/css?family=Cuprum:400,700italic);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -400,6 +400,14 @@ a:active {
 .main-navigation .current_page_item a,
 .main-navigation .current-menu-item a {
 }
+#nav .menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#nav .menu li{
+	display: inline-block;
+}
 /* Small menu */
 .menu-toggle {
 	cursor: pointer;
@@ -728,7 +736,7 @@ ul, ol { list-style: none; }
 }
 
 #text-links a, #text-links a:visited {
-	color: #0F598C; /* dark blue */ 
+	color: #0F598C; /* dark blue */
 }
 
 #text-links a:hover {
@@ -767,7 +775,7 @@ h2 { font-size: 26px; margin-bottom: 10px; margin-top: 20px; }
 h3 { margin: 15px 0 2px 0; border-bottom: 1px solid #333; font-size: 22px; }
 
 p, li {
-	margin-bottom: 5px;	
+	margin-bottom: 5px;
 }
 
 ul {
@@ -780,7 +788,7 @@ ul {
 }
 
 #content p a:hover,  #content h3 a:hover {
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 
 .gallery-icon a img, .gallery-icon a:visited img {
